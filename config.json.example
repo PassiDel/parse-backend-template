@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "serverURL": "$PARSE_DASHBOARD_PARSE_HOST",
+      "appId": "$PARSE_APP_ID",
+      "masterKey": "$PARSE_MASTER_KEY",
+      "appName": "$PARSE_APP_NAME",
+      "production": false
+    }
+  ],
+  "users": [
+    {
+      "user": "user",
+      "pass": "$2a$10$wpx5vf3VtZyxdK2IZsjC9.EGfY5c7d4rBO0YPfmMpkms1jMjILnb2",
+      "apps": [
+        { "appId": "$PARSE_APP_ID" }
+      ]
+    },
+    {
+      "user": "admin",
+      "pass": "$2a$10$S5AvZJfifYYuKEDJuikuuecpVlDnwtVTnV81Mfe3oPdd/yUZwXkNK"
+    }
+  ],
+  "useEncryptedPasswords": true
+}
